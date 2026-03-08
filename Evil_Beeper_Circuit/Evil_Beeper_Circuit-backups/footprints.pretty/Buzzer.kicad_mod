@@ -1,0 +1,117 @@
+(footprint "Buzzer"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e8c44889-ecb7-4c50-aa17-177fd2ae50d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Buzzer"
+		(at 13 -0.5 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6ddbd441-4d2b-4f42-a3ae-39a4b575e59d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a05650c7-60d8-4306-b698-043e1569d04c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5718ad74-ecd1-4c30-a888-05c104b9b6a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 -3.5)
+		(end 0 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "31beb9ad-e14a-432b-93bd-8b6b688181f6")
+	)
+	(fp_line
+		(start 1 -2.5)
+		(end -1 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1ac19f6b-998d-4068-92e7-d94ddc878e87")
+	)
+	(fp_circle
+		(center 3.2 0)
+		(end 3.2 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3c6c5332-eb2f-4fed-8fbe-3412197957d6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 11 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4d50e0e5-8bc7-4230-b076-04d7bb2036e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a2265ed7-fc8a-4c56-84d2-1af83cdb7805")
+	)
+	(pad "2" thru_hole circle
+		(at 6.4 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1d994bc9-5be6-4e97-b6e7-465a835c1806")
+	)
+	(embedded_fonts no)
+)
